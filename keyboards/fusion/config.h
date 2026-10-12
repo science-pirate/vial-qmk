@@ -28,7 +28,7 @@
 
 #define ENCODER_A_PINS { D1, D6 }
 #define ENCODER_B_PINS { D0, D5 }
-#define ENCODER_DIRECTION_FLIP
+//#define ENCODER_DIRECTION_FLIP
 #define ENCODER_RESOLUTION 4
 
 /*
