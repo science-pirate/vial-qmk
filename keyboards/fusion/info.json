@@ -1,0 +1,53 @@
+{
+    "manufacturer": "SciencePirate",
+    "keyboard_name": "FUSION",
+    "maintainer": "SciencePirate",
+    "bootloader": "usbasploader",
+    "bootmagic": {
+        "enabled": true
+    },
+    "debounce": 5,
+    "diode_direction": "COL2ROW",
+    "encoder": {
+        "enabled": true
+    },
+    "mouse_key": {
+        "enabled": true
+    },
+    "processor": "atmega32a",
+    "qmk": {
+        "tap_keycode_delay": 10
+    },
+    "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "max_power": 100,
+        "pid": "0x4655",
+        "vid": "0x6B62"
+    },
+    "community_layouts": ["ortho_5x4"],
+    "layouts": {
+        "LAYOUT_ortho_5x4": {
+            "layout": [
+                {"x": 0, "y": 0},
+                {"x": 3, "y": 0},
+                {"x": 0, "y": 1},
+                {"x": 1, "y": 1},
+                {"x": 2, "y": 1},
+                {"x": 3, "y": 1},
+                {"x": 0, "y": 2},
+                {"x": 1, "y": 2},
+                {"x": 2, "y": 2},
+                {"x": 3, "y": 2},
+                {"x": 0, "y": 3},
+                {"x": 1, "y": 3},
+                {"x": 2, "y": 3},
+                {"x": 3, "y": 3},
+                {"x": 0, "y": 4},
+                {"x": 1, "y": 4},
+                {"x": 2, "y": 4},
+                {"x": 3, "y": 4}
+            ]
+        }
+    }
+}
